@@ -7,7 +7,7 @@ document.getElementById("findButton").onclick = function() {
     }
   
     for (i = 0; i < words.length; i++) {
-      alphabetize(words[i]);
+      console.log(alphabetize(words[i]));
   
       if (alphabetize(words[i]) === alphabetize(typedText)) {
         var span = document.createElement("span");
@@ -17,4 +17,6 @@ document.getElementById("findButton").onclick = function() {
       }
     }
   }
-  
+  var anagramSets = {
+
+  }
